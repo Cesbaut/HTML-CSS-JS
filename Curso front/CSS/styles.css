@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main-section{
+    padding: 150px 300px;
+    background-color: rgb(30, 54, 152);
+
+}
+h1{
+    color: rgb(172, 243, 255);
+    font-family: 'Playfair Display', serif;
+    font-size: 72px; 
+    letter-spacing: 10px;
+    text-align: center;
+}
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+    font-style: italic;
+    text-align: justify;
+    color: aliceblue;
+}
+#picture{
+    margin-top: 30px;
+    width: 200px;
+    border-radius: 30px;
+}
+.link{
+    text-decoration: none;
+    background: rgb(223, 222, 247);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 25px;
+}
+
+/* https://cssgradient.io/ */
+
+
+#navbar{
+    background-color: dodgerblue;
+    color: aliceblue;
+    height: 80px;
+}
+#navbar ul{
+    height: 80px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+ul li :hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+
+
+
+/* .wrapper{
+    display: flex;
+    border: 3px solid;
+    border-radius: 3px;
+    margin: 100px;
+    padding: 20px;
+    align-items: center;
+}
+.info{
+    width: 40%;
+    margin-right: 20%;
+}
+.botones{
+    width: 40%;
+    justify-content: flex-end;
+}
+#picture{
+    padding: 50px;
+    border: 3px solid;
+}  */
+

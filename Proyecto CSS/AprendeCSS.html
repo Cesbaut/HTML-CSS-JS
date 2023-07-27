@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="IMAGENES/usuario.png">
+    <link rel="stylesheet" href="AprendeCSS.css">
+    <title>Cesar Bautista</title>
+</head>
+<body>
+    <nav>
+        <div class="nombre">
+            <img src="IMAGENES/usuario.png" alt="Logo" id="Logo">
+            <h1>Cesar Bautista</h1>
+        </div>
+        <ul id="navegacion">
+            <li id="Inicio"><a href="index.html">Inicio</a></li>
+            <li><a href="AprendeCSS.html" id="CSS">Aprende CSS</a></li>
+            <li><a href="Redes Sociales.html" id="Redes Sociales">Redes sociales</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>MODELADO DE CAJAS</h1><hr><br><br>
+        <article class="Modelado">
+            <div id="Espacios">
+            <h2>Espacios en las cajas</h2><br>
+            <p>El modelo de cajas de CSS es un concepto fundamental que describe cómo se representan y se estructuran los elementos HTML en una página web mediante CSS. Cada elemento HTML se representa como una caja rectangular que consta de cuatro áreas principales: contenido, relleno (padding), borde (border) y margen (margin). Estas áreas son esenciales para el posicionamiento y la apariencia de los elementos en la página.</p>
+            </div>
+            <img src="IMAGENES/image-1.png" alt="">
+        </article>
+        
+        <article id="caracteristicas">
+            <h3>contenido</h3>
+                <p>Es el área donde se muestra el contenido real del elemento, como texto, imágenes, vídeos u otros elementos HTML. Su tamaño y dimensiones pueden ajustarse utilizando propiedades como width y height.</p><br>
+            <h3>padding</h3>
+                <p>Es el espacio entre el contenido del elemento y su borde. Se utiliza para separar el contenido del borde, brindando un espacio interno. Puedes controlar el relleno utilizando las propiedades padding-top, padding-right, padding-bottom y padding-left.</p><br>
+            <h3>border</h3>
+                <p>Es la linea de borde que puede contener tu caja. Esta tiene tres caracteristicas, el primero es un tamaño, el segundo el tipo de borde que aplicara y el tercero el color.
+                Se define mediante la propiedad border.
+                </p><br>
+            <h3>margin</h3>
+                <p>Es el espacio que rodea el elemento y separa este elemento de otros elementos circundantes. Los márgenes no tienen color ni borde, solo representan espacios en blanco entre elementos. Puedes controlar los márgenes utilizando las propiedades margin-top, margin-right, margin-bottom y margin-left.</p><br>
+            <h3>Recordando otros comandos.</h3>   
+            <ul>
+                <li>background-color se utiliza para cambiar el color de fondo.</li>
+                <li>border-radius se usa para poner las esquinas redondeadas.</li>
+                <li>width es para poner un ancho a la caja</li>
+                <li>height: para el alto</li>
+            </ul>
+            <pre>
+                <code>
+                .contenido{
+                    background-color: blue;
+                    padding: 5px 10px 12px 20px;
+                    border: 1px solid green;
+                    border-radius: 4px;
+                    margin: 15px;
+                    width: 50px;
+                    height: 50px;
+                    display: inline-block;
+                }
+                </code>
+            </pre>    
+        </article>
+
+        <article id="concatenaciones">
+            <h3>Declaraciones y concatenaciones</h3>
+            <p>En lugar de escribir en tu codigo de css los valores para cada lado de un atributo, por ejemplo:</p>
+            <pre>
+            <code>
+            .contenido{
+                margin-top: 5px;
+                margin-left: 6px;
+                margin-bottom: 5px;
+                margin-right: 6px;
+            } 
+            </code>
+            </pre>
+            <p>Es mejor concatenarlo en uno, esto se puede aplicar a los tres espacios de cajas que vimos anteriormente.</p>
+            <pre>
+                <code>
+                .contenido{
+                    margin: 5px 6px 5px 6px;
+                }
+                </code>
+            </pre>
+            <p>Si solo ponemos un valor se aplicara a todos los lados. Si ponemos dos se aplicara el primero para arriba y abajo y el segundo para la derecha e izquierda. Si declaramos tres valores el primero sera de la parte superior, el segundo de los lados, y el tercero de la parte de abajo. Con los 4 se aplica con el sentido de la manecillas del reloj.</p>
+            <pre>
+                <code>
+                .conenido{
+                    margin: 0;
+                    margin: 2px;
+                    margin: 2px 6px;
+                    margin: 2px 6px 8px;
+                    margin: 3px 6px 9px 12px;
+                }
+                </code>
+            </pre>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2023 Cesar Bautista Castilla.</p>
+        <p>Reservados todos los derechos.</p>
+    </footer>
+</body>
+</html>

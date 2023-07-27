@@ -1,0 +1,53 @@
+/* CONFIGURACIONES GENERALES */
+section{
+    display: block;
+    margin: 8px 15%;
+    background-color: azure;
+    border-radius: 30px;
+}
+p{
+    text-align: justify;
+    font-size: 1.3em;
+}
+h3{
+    font-size: 1.5em;
+}
+code{
+    font-size: 1.3em;
+}
+section h1{
+    color: #69bdf5;
+    text-align: center;
+    font-size: 1.9em;
+    padding: 20px ;
+}
+
+/* MODELADO */
+.Modelado{
+    display: flex;
+    gap: 50px;
+}
+.Modelado #Espacios{
+    padding: 20px;
+    width: 80%;
+}
+.Modelado img{
+    width: 400px;
+    border-radius: 60px;
+    margin-right: 20px;
+}
+
+/* CARACTERISTICAS */
+#caracteristicas{
+    padding: 2% 20px;
+}
+
+#caracteristicas li{
+    margin-left: 20px;
+    font-size: 1.3em;
+}
+
+
+#concatenaciones{
+    padding: 2% 20px;
+}
